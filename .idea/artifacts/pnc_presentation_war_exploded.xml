@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pnc-presentation:war exploded">
+    <output-path>$PROJECT_DIR$/pnc-presentation/target/pnc-presentation</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>pnc-presentation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pnc-presentation" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/pnc-presentation/target/pnc-presentation/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="pnc-presentation/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pnc-presentation:war">
+    <output-path>$PROJECT_DIR$/pnc-presentation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pnc-presentation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pnc-presentation.war">
+      <element id="artifact" artifact-name="pnc-presentation:war exploded" />
+    </root>
+  </artifact>
+</component>

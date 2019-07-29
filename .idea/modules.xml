@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pnc.iml" filepath="$PROJECT_DIR$/pnc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pnc-application/pnc-application.iml" filepath="$PROJECT_DIR$/pnc-application/pnc-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pnc-business/pnc-business.iml" filepath="$PROJECT_DIR$/pnc-business/pnc-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pnc-persistence/pnc-persistence.iml" filepath="$PROJECT_DIR$/pnc-persistence/pnc-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pnc-presentation/pnc-presentation.iml" filepath="$PROJECT_DIR$/pnc-presentation/pnc-presentation.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="pnc-persistence:ejb">
+    <output-path>$PROJECT_DIR$/pnc-persistence/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pnc-persistence</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pnc-persistence.jar">
+      <element id="artifact" artifact-name="pnc-persistence:ejb exploded" />
+    </root>
+  </artifact>
+</component>

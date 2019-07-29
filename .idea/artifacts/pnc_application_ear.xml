@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="pnc-application:ear">
+    <output-path>$PROJECT_DIR$/pnc-application/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pnc-application</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pnc-application.ear">
+      <element id="artifact" artifact-name="pnc-application:ear exploded" />
+    </root>
+  </artifact>
+</component>
